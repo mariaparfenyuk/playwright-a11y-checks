@@ -1,8 +1,12 @@
 {
   "devDependencies": {
     "axe-core": "^4.10.3",
+    "axe-html-reporter": "^2.2.11",
     "axe-playwright": "^2.1.0",
     "mocha": "^11.7.1",
     "playwright": "^1.54.1"
-  }
+  },
+"scripts": {
+  "test:a11y": "mocha tests/a11y/**/*.spec.js --timeout 10000"
+}
 }
