@@ -1,4 +1,18 @@
 {
+  "name": "a11y-testing-framework",
+  "version": "1.0.0",
+  "description": "Minimal accessibility testing setup using Playwright and axe-core",
+  "author": "Mariia Parfeniuk",
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "axe-core",
+    "playwright",
+    "mocha",
+    "testing",
+    "wcag",
+    "automated-tests"
+  ],
   "devDependencies": {
     "axe-core": "^4.10.3",
     "axe-html-reporter": "^2.2.11",
@@ -6,7 +20,7 @@
     "mocha": "^11.7.1",
     "playwright": "^1.54.1"
   },
-"scripts": {
-  "test:a11y": "mocha tests/a11y/**/*.spec.js --timeout 10000"
-}
+  "scripts": {
+    "test:a11y": "mocha tests/a11y/**/*.spec.js --timeout 10000"
+  }
 }
