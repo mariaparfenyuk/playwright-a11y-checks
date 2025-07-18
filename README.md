@@ -29,7 +29,6 @@ Related WCAG rules:
 2.1.2 No Keyboard Trap
 
 ## Test Runner
-
 All tests are written using Mocha and can be executed with the following command:
 
 ```npm run test:a11y```
