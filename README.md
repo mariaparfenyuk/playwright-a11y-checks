@@ -34,9 +34,3 @@ All tests are written using Mocha and can be executed with the following command
 ```npm run test:a11y```
 
 This will run all accessibility test files located under tests/a11y/.
-
-The default page tested is https://www.amazon.com, but it can be changed by setting the TEST_URL environment variable before running the tests. For example:
-
-```TEST_URL=https://example.com npm run test:a11y```
-
-This setup is designed to be CI-friendly, dependency-light, and scalable to larger accessibility testing suites.
