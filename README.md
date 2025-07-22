@@ -30,7 +30,5 @@ Related WCAG rules:
 
 ## Test Runner
 All tests are written using Mocha and can be executed with the following command:
-
 ```npm run test:a11y```
-
 This will run all accessibility test files located under tests/a11y/.
