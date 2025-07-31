@@ -2,6 +2,7 @@ const { chromium } = require('playwright');
 const { source } = require('axe-core');
 const { assertNoA11yViolations } = require('../../utils/assertNoA11yViolations');
 
+
 describe('A11y: Keyboard navigation', () => {
   let browser, page;
 
